@@ -35,7 +35,7 @@ RUN bun i --prod
 COPY --from=builder /app/dist ./dist
 
 ENV NODE_ENV=production
-ENV PORT=3000
+ENV PORT=4000
 
 # Command to run the application
 # Assumes your entry point after build is dist/main.js
